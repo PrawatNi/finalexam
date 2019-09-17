@@ -1,4 +1,4 @@
 FROM centurylink/ca-certs
-ADD main /
+ADD finalexam /
 EXPOSE 2019
-CMD ["/main"]
+CMD ["/finalexam"]
