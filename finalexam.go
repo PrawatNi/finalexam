@@ -34,7 +34,7 @@ var db *sql.DB
 //var err error
 
 func connectDB() {
-	url := os.Getenv("DATABASE_URL")
+	url := "postgres://losikmkt:OLxHUThWjfIpCVskUJlNfbaCeD1VgEjR@arjuna.db.elephantsql.com:5432/losikmkt"
 	fmt.Println("url :", url)
 	var err error
 	db, err = sql.Open("postgres", url)
